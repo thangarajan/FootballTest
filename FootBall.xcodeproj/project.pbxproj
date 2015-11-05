@@ -15,6 +15,16 @@
 		5EE260321BEB65ED000E6A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE260301BEB65ED000E6A7F /* LaunchScreen.storyboard */; };
 		5EE2603D1BEB65ED000E6A7F /* FootBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2603C1BEB65ED000E6A7F /* FootBallTests.m */; };
 		5EE260481BEB65ED000E6A7F /* FootBallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE260471BEB65ED000E6A7F /* FootBallUITests.m */; };
+		5EE260571BEB66A0000E6A7F /* gameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE260561BEB66A0000E6A7F /* gameTableViewCell.m */; };
+		5EE2605C1BEB761B000E6A7F /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2605B1BEB761B000E6A7F /* GameModel.m */; };
+		5EE2605E1BEB7C8B000E6A7F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE2605D1BEB7C8B000E6A7F /* CFNetwork.framework */; };
+		5EE260601BEB7C98000E6A7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE2605F1BEB7C98000E6A7F /* Security.framework */; };
+		5EE260621BEB7CAD000E6A7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE260611BEB7CAD000E6A7F /* SystemConfiguration.framework */; };
+		5EE260641BEB7ECE000E6A7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE260631BEB7ECE000E6A7F /* CoreData.framework */; };
+		5EE260661BEB7ED6000E6A7F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE260651BEB7ED6000E6A7F /* MobileCoreServices.framework */; };
+		5EE260681BEB7EE1000E6A7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE260671BEB7EE1000E6A7F /* CoreGraphics.framework */; };
+		5EE2606A1BEB7EEA000E6A7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE260691BEB7EEA000E6A7F /* QuartzCore.framework */; };
+		B21B7829E1374ED2B6770BD7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30509E1F8E811AC78CB271FE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30509E1F8E811AC78CB271FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFCBA0D06EC78852493CF2D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5EE2601F1BEB65ED000E6A7F /* FootBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE260231BEB65ED000E6A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EE260251BEB65ED000E6A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,18 @@
 		5EE260431BEB65ED000E6A7F /* FootBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE260471BEB65ED000E6A7F /* FootBallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootBallUITests.m; sourceTree = "<group>"; };
 		5EE260491BEB65ED000E6A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE260551BEB66A0000E6A7F /* gameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameTableViewCell.h; sourceTree = "<group>"; };
+		5EE260561BEB66A0000E6A7F /* gameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameTableViewCell.m; sourceTree = "<group>"; };
+		5EE2605A1BEB761B000E6A7F /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		5EE2605B1BEB761B000E6A7F /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		5EE2605D1BEB7C8B000E6A7F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5EE2605F1BEB7C98000E6A7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5EE260611BEB7CAD000E6A7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5EE260631BEB7ECE000E6A7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5EE260651BEB7ED6000E6A7F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5EE260671BEB7EE1000E6A7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EE260691BEB7EEA000E6A7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB2023B2E107939542673BA8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EE2606A1BEB7EEA000E6A7F /* QuartzCore.framework in Frameworks */,
+				5EE260681BEB7EE1000E6A7F /* CoreGraphics.framework in Frameworks */,
+				5EE260661BEB7ED6000E6A7F /* MobileCoreServices.framework in Frameworks */,
+				5EE260641BEB7ECE000E6A7F /* CoreData.framework in Frameworks */,
+				5EE260621BEB7CAD000E6A7F /* SystemConfiguration.framework in Frameworks */,
+				5EE260601BEB7C98000E6A7F /* Security.framework in Frameworks */,
+				5EE2605E1BEB7C8B000E6A7F /* CFNetwork.framework in Frameworks */,
+				B21B7829E1374ED2B6770BD7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29458ECE462FE1A15457150A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EE260691BEB7EEA000E6A7F /* QuartzCore.framework */,
+				5EE260671BEB7EE1000E6A7F /* CoreGraphics.framework */,
+				5EE260651BEB7ED6000E6A7F /* MobileCoreServices.framework */,
+				5EE260631BEB7ECE000E6A7F /* CoreData.framework */,
+				5EE260611BEB7CAD000E6A7F /* SystemConfiguration.framework */,
+				5EE2605F1BEB7C98000E6A7F /* Security.framework */,
+				5EE2605D1BEB7C8B000E6A7F /* CFNetwork.framework */,
+				30509E1F8E811AC78CB271FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5EE260161BEB65ED000E6A7F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				5EE2603B1BEB65ED000E6A7F /* FootBallTests */,
 				5EE260461BEB65ED000E6A7F /* FootBallUITests */,
 				5EE260201BEB65ED000E6A7F /* Products */,
+				90C1D19B23DA63BF4C8844DB /* Pods */,
+				29458ECE462FE1A15457150A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +154,10 @@
 				5EE260261BEB65ED000E6A7F /* AppDelegate.m */,
 				5EE260281BEB65ED000E6A7F /* ViewController.h */,
 				5EE260291BEB65ED000E6A7F /* ViewController.m */,
+				5EE2605A1BEB761B000E6A7F /* GameModel.h */,
+				5EE2605B1BEB761B000E6A7F /* GameModel.m */,
+				5EE260551BEB66A0000E6A7F /* gameTableViewCell.h */,
+				5EE260561BEB66A0000E6A7F /* gameTableViewCell.m */,
 				5EE2602B1BEB65ED000E6A7F /* Main.storyboard */,
 				5EE2602E1BEB65ED000E6A7F /* Assets.xcassets */,
 				5EE260301BEB65ED000E6A7F /* LaunchScreen.storyboard */,
@@ -140,6 +193,15 @@
 			path = FootBallUITests;
 			sourceTree = "<group>";
 		};
+		90C1D19B23DA63BF4C8844DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DFCBA0D06EC78852493CF2D /* Pods.debug.xcconfig */,
+				AB2023B2E107939542673BA8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EE2604C1BEB65ED000E6A7F /* Build configuration list for PBXNativeTarget "FootBall" */;
 			buildPhases = (
+				C05BE748BE72787A9FCBD896 /* Check Pods Manifest.lock */,
 				5EE2601B1BEB65ED000E6A7F /* Sources */,
 				5EE2601C1BEB65ED000E6A7F /* Frameworks */,
 				5EE2601D1BEB65ED000E6A7F /* Resources */,
+				E93DB5D674612AF65CCAC8F0 /* Embed Pods Frameworks */,
+				894282D38E6A5F8BB0506AE6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +330,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		894282D38E6A5F8BB0506AE6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05BE748BE72787A9FCBD896 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E93DB5D674612AF65CCAC8F0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EE2601B1BEB65ED000E6A7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +385,9 @@
 			files = (
 				5EE2602A1BEB65ED000E6A7F /* ViewController.m in Sources */,
 				5EE260271BEB65ED000E6A7F /* AppDelegate.m in Sources */,
+				5EE2605C1BEB761B000E6A7F /* GameModel.m in Sources */,
 				5EE260241BEB65ED000E6A7F /* main.m in Sources */,
+				5EE260571BEB66A0000E6A7F /* gameTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,22 +524,48 @@
 		};
 		5EE2604D1BEB65ED000E6A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DFCBA0D06EC78852493CF2D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = FootBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tringapps.-.FootBall";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cscs.-.FootBall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		5EE2604E1BEB65ED000E6A7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2023B2E107939542673BA8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = FootBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tringapps.-.FootBall";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cscs.-.FootBall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +637,7 @@
 				5EE2604E1BEB65ED000E6A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EE2604F1BEB65ED000E6A7F /* Build configuration list for PBXNativeTarget "FootBallTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +646,7 @@
 				5EE260511BEB65ED000E6A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EE260521BEB65ED000E6A7F /* Build configuration list for PBXNativeTarget "FootBallUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +655,7 @@
 				5EE260541BEB65ED000E6A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

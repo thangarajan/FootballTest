@@ -2,8 +2,8 @@
 //  FootBallTests.m
 //  FootBallTests
 //
-//  Created by TringApps on 11/5/15.
-//  Copyright © 2015 TringApps. All rights reserved.
+//  Created by  on 11/5/15.
+//  Copyright © 2015 . All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
